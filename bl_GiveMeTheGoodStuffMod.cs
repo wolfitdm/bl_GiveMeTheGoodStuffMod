@@ -27,6 +27,7 @@ namespace BitchLand//must have this namespace
 
 		public void OnStart()
 		{
+            doWork();
 		}
 
         private List<GameObject> getPrefabsByName(string prefab)
