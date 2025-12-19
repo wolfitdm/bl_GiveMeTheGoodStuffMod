@@ -1,29 +1,43 @@
--------------------------------------------------------------------Weapons-------------------------------------------------------------------
-Main.Instance.Weapons[0]: name: Pistol
-Main.Instance.Weapons[1]: name: Ak
-Main.Instance.Weapons[2]: name: assalt2
-Main.Instance.Weapons[3]: name: assalt3
-Main.Instance.Weapons[4]: name: assault4
-Main.Instance.Weapons[5]: name: Assault Rifle 2
-Main.Instance.Weapons[6]: name: M4
-Main.Instance.Weapons[7]: name: M79 Grenade Launcher
-Main.Instance.Weapons[8]: name: Rifle
-Main.Instance.Weapons[9]: name: Rifle1
-Main.Instance.Weapons[10]: name: Rifle2
-Main.Instance.Weapons[11]: name: Shotgun
-Main.Instance.Weapons[12]: name: Shotgun1
-Main.Instance.Weapons[13]: name: Shotgun2
-Main.Instance.Weapons[14]: name: Shotgun3
-Main.Instance.Weapons[15]: name: Shotgun4
-Main.Instance.Weapons[16]: name: SMG1
-Main.Instance.Weapons[17]: name: Assault Rifle
-Main.Instance.Weapons[18]: name: Bat
-Main.Instance.Weapons[19]: name: BatSithSpikes
-Main.Instance.Weapons[20]: name: crowbar
-Main.Instance.Weapons[21]: name: Pickaxe
-Main.Instance.Weapons[22]: name: Pipe
-Main.Instance.Weapons[23]: name: Shovel
-Main.Instance.Weapons[24]: name: SurgeryKnife
+-------------------------------------------------------------------ProstSuit1-------------------------------------------------------------------
+Main.Instance.Prefabs_ProstSuit1[0]: name: Boots2
+Main.Instance.Prefabs_ProstSuit1[1]: name: bra1_black
+Main.Instance.Prefabs_ProstSuit1[2]: name: panties1_black
+Main.Instance.Prefabs_ProstSuit1[3]: name: Restraints
+Main.Instance.Prefabs_ProstSuit1[4]: name: Stockings_black
+Main.Instance.Prefabs_ProstSuit1[5]: name: garter_black
+-------------------------------------------------------------------ProstSuit2-------------------------------------------------------------------
+Main.Instance.Prefabs_ProstSuit2[0]: name: Boots2
+Main.Instance.Prefabs_ProstSuit2[1]: name: gloves
+Main.Instance.Prefabs_ProstSuit2[2]: name: panties1_white
+Main.Instance.Prefabs_ProstSuit2[3]: name: Stockings_white
+Main.Instance.Prefabs_ProstSuit2[4]: name: garter_white
+Main.Instance.Prefabs_ProstSuit2[5]: name: bra1_white
+-------------------------------------------------------------------Prefabs_Weapons-------------------------------------------------------------------
+Main.Instance.Prefabs_Weapons[0]: name: Pistol
+Main.Instance.Prefabs_Weapons[1]: name: Ak
+Main.Instance.Prefabs_Weapons[2]: name: assalt2
+Main.Instance.Prefabs_Weapons[3]: name: assalt3
+Main.Instance.Prefabs_Weapons[4]: name: assault4
+Main.Instance.Prefabs_Weapons[5]: name: Assault Rifle 2
+Main.Instance.Prefabs_Weapons[6]: name: M4
+Main.Instance.Prefabs_Weapons[7]: name: M79 Grenade Launcher
+Main.Instance.Prefabs_Weapons[8]: name: Rifle
+Main.Instance.Prefabs_Weapons[9]: name: Rifle1
+Main.Instance.Prefabs_Weapons[10]: name: Rifle2
+Main.Instance.Prefabs_Weapons[11]: name: Shotgun
+Main.Instance.Prefabs_Weapons[12]: name: Shotgun1
+Main.Instance.Prefabs_Weapons[13]: name: Shotgun2
+Main.Instance.Prefabs_Weapons[14]: name: Shotgun3
+Main.Instance.Prefabs_Weapons[15]: name: Shotgun4
+Main.Instance.Prefabs_Weapons[16]: name: SMG1
+Main.Instance.Prefabs_Weapons[17]: name: Assault Rifle
+Main.Instance.Prefabs_Weapons[18]: name: Bat
+Main.Instance.Prefabs_Weapons[19]: name: BatSithSpikes
+Main.Instance.Prefabs_Weapons[20]: name: crowbar
+Main.Instance.Prefabs_Weapons[21]: name: Pickaxe
+Main.Instance.Prefabs_Weapons[22]: name: Pipe
+Main.Instance.Prefabs_Weapons[23]: name: Shovel
+Main.Instance.Prefabs_Weapons[24]: name: SurgeryKnife
 -------------------------------------------------------------------AllPrefabs-------------------------------------------------------------------
 Main.Instance.AllPrefabs[0]: name: BDSM Rope
 Main.Instance.AllPrefabs[1]: name: Boots
@@ -234,347 +248,347 @@ Main.Instance.AllPrefabs[205]: name: PenisCagePack
 Main.Instance.AllPrefabs[206]: name: Beret1
 Main.Instance.AllPrefabs[207]: name: BodyArmor_F
 -------------------------------------------------------------------Any-------------------------------------------------------------------
-Main.Instance.Any[0]: name: gloves
-Main.Instance.Any[1]: name: rope
-Main.Instance.Any[2]: name: Neck1.001
-Main.Instance.Any[3]: name: ClitRotor
-Main.Instance.Any[4]: name: LeftNipRotors
-Main.Instance.Any[5]: name: RightNipRotors
-Main.Instance.Any[6]: name: BodyArmor
-Main.Instance.Any[7]: name: Restraints
-Main.Instance.Any[8]: name: safetygoggles_low
-Main.Instance.Any[9]: name: Blindfold
-Main.Instance.Any[10]: name: Mask
-Main.Instance.Any[11]: name: condomCircle
-Main.Instance.Any[12]: name: condomTie
-Main.Instance.Any[13]: name: Piercing (Right Nipple)
-Main.Instance.Any[14]: name: Piercing (Left Nipple)
-Main.Instance.Any[15]: name: Piercing (Clitoris)
-Main.Instance.Any[16]: name: buttplugTail1
-Main.Instance.Any[17]: name: buttplugTail2
-Main.Instance.Any[18]: name: buttplug
-Main.Instance.Any[19]: name: AviatorGlasses 1
-Main.Instance.Any[20]: name: VRHeadset
-Main.Instance.Any[21]: name: PantiesGag
-Main.Instance.Any[22]: name: RoundGag
-Main.Instance.Any[23]: name: BigGagLid
-Main.Instance.Any[24]: name: Apron
-Main.Instance.Any[25]: name: Piercing 2 (Clitoris)
-Main.Instance.Any[26]: name: Piercing 2 (Left Nipple)
-Main.Instance.Any[27]: name: Piercing 2 (Right Nipple)
-Main.Instance.Any[28]: name: ScatTube
-Main.Instance.Any[29]: name: HeartPasties
-Main.Instance.Any[30]: name: XPasties
-Main.Instance.Any[31]: name: Earringss
-Main.Instance.Any[32]: name: Earrings
-Main.Instance.Any[33]: name: BandAidPasties
-Main.Instance.Any[34]: name: LeatherJacket
-Main.Instance.Any[35]: name: SingleRestrainLeft
-Main.Instance.Any[36]: name: SingleRestraRight
-Main.Instance.Any[37]: name: PenisCage
-Main.Instance.-------------------------------------------------------------------Shoes-------------------------------------------------------------------
-Main.Instance.Shoes[1]: name: Feet
-Main.Instance.Shoes[2]: name: boots
-Main.Instance.Shoes[3]: name: Boots2
-Main.Instance.Shoes[4]: name: boots3
-Main.Instance.Shoes[5]: name: boots4
-Main.Instance.Shoes[6]: name: Sneakers
-Main.Instance.Shoes[7]: name: Heels5
-Main.Instance.-------------------------------------------------------------------Pants-------------------------------------------------------------------
-Main.Instance.Pants[1]: name: pants
-Main.Instance.Pants[2]: name: shorts2
-Main.Instance.Pants[3]: name: shorts
-Main.Instance.Pants[4]: name: Skirt1
-Main.Instance.Pants[5]: name: ZombieGirl_Pants
-Main.Instance.Pants[6]: name: RippedPants2
-Main.Instance.Pants[7]: name: Jeans
-Main.Instance.Pants[8]: name: Lower Rags
-Main.Instance.Pants[9]: name: jeanshorts
-Main.Instance.Pants[10]: name: skirt2
-Main.Instance.Pants[11]: name: Skirt3
-Main.Instance.Pants[12]: name: SkirtFishnet
+Main.Instance.Prefabs_Any[0]: name: gloves
+Main.Instance.Prefabs_Any[1]: name: rope
+Main.Instance.Prefabs_Any[2]: name: Neck1.001
+Main.Instance.Prefabs_Any[3]: name: ClitRotor
+Main.Instance.Prefabs_Any[4]: name: LeftNipRotors
+Main.Instance.Prefabs_Any[5]: name: RightNipRotors
+Main.Instance.Prefabs_Any[6]: name: BodyArmor
+Main.Instance.Prefabs_Any[7]: name: Restraints
+Main.Instance.Prefabs_Any[8]: name: safetygoggles_low
+Main.Instance.Prefabs_Any[9]: name: Blindfold
+Main.Instance.Prefabs_Any[10]: name: Mask
+Main.Instance.Prefabs_Any[11]: name: condomCircle
+Main.Instance.Prefabs_Any[12]: name: condomTie
+Main.Instance.Prefabs_Any[13]: name: Piercing (Right Nipple)
+Main.Instance.Prefabs_Any[14]: name: Piercing (Left Nipple)
+Main.Instance.Prefabs_Any[15]: name: Piercing (Clitoris)
+Main.Instance.Prefabs_Any[16]: name: buttplugTail1
+Main.Instance.Prefabs_Any[17]: name: buttplugTail2
+Main.Instance.Prefabs_Any[18]: name: buttplug
+Main.Instance.Prefabs_Any[19]: name: AviatorGlasses 1
+Main.Instance.Prefabs_Any[20]: name: VRHeadset
+Main.Instance.Prefabs_Any[21]: name: PantiesGag
+Main.Instance.Prefabs_Any[22]: name: RoundGag
+Main.Instance.Prefabs_Any[23]: name: BigGagLid
+Main.Instance.Prefabs_Any[24]: name: Apron
+Main.Instance.Prefabs_Any[25]: name: Piercing 2 (Clitoris)
+Main.Instance.Prefabs_Any[26]: name: Piercing 2 (Left Nipple)
+Main.Instance.Prefabs_Any[27]: name: Piercing 2 (Right Nipple)
+Main.Instance.Prefabs_Any[28]: name: ScatTube
+Main.Instance.Prefabs_Any[29]: name: HeartPasties
+Main.Instance.Prefabs_Any[30]: name: XPasties
+Main.Instance.Prefabs_Any[31]: name: Earringss
+Main.Instance.Prefabs_Any[32]: name: Earrings
+Main.Instance.Prefabs_Any[33]: name: BandAidPasties
+Main.Instance.Prefabs_Any[34]: name: LeatherJacket
+Main.Instance.Prefabs_Any[35]: name: SingleRestrainLeft
+Main.Instance.Prefabs_Any[36]: name: SingleRestraRight
+Main.Instance.Prefabs_Any[37]: name: PenisCage
+Main.Instance.Prefabs_-------------------------------------------------------------------Shoes-------------------------------------------------------------------
+Main.Instance.Prefabs_Shoes[1]: name: Feet
+Main.Instance.Prefabs_Shoes[2]: name: boots
+Main.Instance.Prefabs_Shoes[3]: name: Boots2
+Main.Instance.Prefabs_Shoes[4]: name: boots3
+Main.Instance.Prefabs_Shoes[5]: name: boots4
+Main.Instance.Prefabs_Shoes[6]: name: Sneakers
+Main.Instance.Prefabs_Shoes[7]: name: Heels5
+Main.Instance.Prefabs_-------------------------------------------------------------------Pants-------------------------------------------------------------------
+Main.Instance.Prefabs_Pants[1]: name: pants
+Main.Instance.Prefabs_Pants[2]: name: shorts2
+Main.Instance.Prefabs_Pants[3]: name: shorts
+Main.Instance.Prefabs_Pants[4]: name: Skirt1
+Main.Instance.Prefabs_Pants[5]: name: ZombieGirl_Pants
+Main.Instance.Prefabs_Pants[6]: name: RippedPants2
+Main.Instance.Prefabs_Pants[7]: name: Jeans
+Main.Instance.Prefabs_Pants[8]: name: Lower Rags
+Main.Instance.Prefabs_Pants[9]: name: jeanshorts
+Main.Instance.Prefabs_Pants[10]: name: skirt2
+Main.Instance.Prefabs_Pants[11]: name: Skirt3
+Main.Instance.Prefabs_Pants[12]: name: SkirtFishnet
 -------------------------------------------------------------------Top-------------------------------------------------------------------
-Main.Instance.Top[1]: name: top10
-Main.Instance.Top[2]: name: top9
-Main.Instance.Top[3]: name: top8
-Main.Instance.Top[4]: name: top7
-Main.Instance.Top[5]: name: top6
-Main.Instance.Top[6]: name: top5
-Main.Instance.Top[7]: name: top4
-Main.Instance.Top[8]: name: top3
-Main.Instance.Top[9]: name: top2
-Main.Instance.Top[10]: name: top1
-Main.Instance.Top[11]: name: shirt
-Main.Instance.Top[12]: name: ZombieGirl_Top
-Main.Instance.Top[13]: name: RippedShirt2
-Main.Instance.Top[14]: name: Top Rags
-Main.Instance.Top[15]: name: bunnysuit
-Main.Instance.Top[16]: name: opentop
-Main.Instance.Top[17]: name: top11
-Main.Instance.Top[18]: name: TopFishnet
-Main.Instance.Top[19]: name: BandTshirt
+Main.Instance.Prefabs_Top[1]: name: top10
+Main.Instance.Prefabs_Top[2]: name: top9
+Main.Instance.Prefabs_Top[3]: name: top8
+Main.Instance.Prefabs_Top[4]: name: top7
+Main.Instance.Prefabs_Top[5]: name: top6
+Main.Instance.Prefabs_Top[6]: name: top5
+Main.Instance.Prefabs_Top[7]: name: top4
+Main.Instance.Prefabs_Top[8]: name: top3
+Main.Instance.Prefabs_Top[9]: name: top2
+Main.Instance.Prefabs_Top[10]: name: top1
+Main.Instance.Prefabs_Top[11]: name: shirt
+Main.Instance.Prefabs_Top[12]: name: ZombieGirl_Top
+Main.Instance.Prefabs_Top[13]: name: RippedShirt2
+Main.Instance.Prefabs_Top[14]: name: Top Rags
+Main.Instance.Prefabs_Top[15]: name: bunnysuit
+Main.Instance.Prefabs_Top[16]: name: opentop
+Main.Instance.Prefabs_Top[17]: name: top11
+Main.Instance.Prefabs_Top[18]: name: TopFishnet
+Main.Instance.Prefabs_Top[19]: name: BandTshirt
 -------------------------------------------------------------------UnderwearTop-------------------------------------------------------------------
-Main.Instance.UnderwearTop[1]: name: bra1_white
-Main.Instance.UnderwearTop[2]: name: bra1_black
-Main.Instance.UnderwearTop[3]: name: bra1_white_open
-Main.Instance.UnderwearTop[4]: name: bra1_pink_open
-Main.Instance.UnderwearTop[5]: name: bra1_black_open
-Main.Instance.UnderwearTop[6]: name: Harness Upper
-Main.Instance.UnderwearTop[7]: name: harness1
-Main.Instance.UnderwearTop[8]: name: ScarletUpper
-Main.Instance.UnderwearTop[9]: name: TapeBra
+Main.Instance.Prefabs_UnderwearTop[1]: name: bra1_white
+Main.Instance.Prefabs_UnderwearTop[2]: name: bra1_black
+Main.Instance.Prefabs_UnderwearTop[3]: name: bra1_white_open
+Main.Instance.Prefabs_UnderwearTop[4]: name: bra1_pink_open
+Main.Instance.Prefabs_UnderwearTop[5]: name: bra1_black_open
+Main.Instance.Prefabs_UnderwearTop[6]: name: Harness Upper
+Main.Instance.Prefabs_UnderwearTop[7]: name: harness1
+Main.Instance.Prefabs_UnderwearTop[8]: name: ScarletUpper
+Main.Instance.Prefabs_UnderwearTop[9]: name: TapeBra
 -------------------------------------------------------------------UnderwearLower-------------------------------------------------------------------
-Main.Instance.UnderwearLower[1]: name: panties1_white
-Main.Instance.UnderwearLower[2]: name: panties1_black
-Main.Instance.UnderwearLower[3]: name: panties1_white_open
-Main.Instance.UnderwearLower[4]: name: panties1_pink_open
-Main.Instance.UnderwearLower[5]: name: panties1_black_open
-Main.Instance.UnderwearLower[6]: name: panties_dirty
-Main.Instance.UnderwearLower[7]: name: leatherpanties
-Main.Instance.UnderwearLower[8]: name: panties1_blue
-Main.Instance.UnderwearLower[9]: name: VagChasity
+Main.Instance.Prefabs_UnderwearLower[1]: name: panties1_white
+Main.Instance.Prefabs_UnderwearLower[2]: name: panties1_black
+Main.Instance.Prefabs_UnderwearLower[3]: name: panties1_white_open
+Main.Instance.Prefabs_UnderwearLower[4]: name: panties1_pink_open
+Main.Instance.Prefabs_UnderwearLower[5]: name: panties1_black_open
+Main.Instance.Prefabs_UnderwearLower[6]: name: panties_dirty
+Main.Instance.Prefabs_UnderwearLower[7]: name: leatherpanties
+Main.Instance.Prefabs_UnderwearLower[8]: name: panties1_blue
+Main.Instance.Prefabs_UnderwearLower[9]: name: VagChasity
 -------------------------------------------------------------------Garter-------------------------------------------------------------------
-Main.Instance.Garter[1]: name: garter_black
-Main.Instance.Garter[2]: name: garter_white
-Main.Instance.Garter[3]: name: Harness Lower
-Main.Instance.Garter[4]: name: ScarletLower
+Main.Instance.Prefabs_Garter[1]: name: garter_black
+Main.Instance.Prefabs_Garter[2]: name: garter_white
+Main.Instance.Prefabs_Garter[3]: name: Harness Lower
+Main.Instance.Prefabs_Garter[4]: name: ScarletLower
 -------------------------------------------------------------------Socks-------------------------------------------------------------------
-Main.Instance.Socks[1]: name: socks
-Main.Instance.Socks[2]: name: Stockings_white
-Main.Instance.Socks[3]: name: Stockings_black
+Main.Instance.Prefabs_Socks[1]: name: socks
+Main.Instance.Prefabs_Socks[2]: name: Stockings_white
+Main.Instance.Prefabs_Socks[3]: name: Stockings_black
 -------------------------------------------------------------------Hat-------------------------------------------------------------------
-Main.Instance.Hat[1]: name: Mill_hat_fix_01
-Main.Instance.Hat[2]: name: Mll_Hat_cap_var01
-Main.Instance.Hat[3]: name: Helmet1
-Main.Instance.Hat[4]: name: Helmet2
-Main.Instance.Hat[5]: name: GHelmet.001
-Main.Instance.Hat[6]: name: Helmet3
-Main.Instance.Hat[7]: name: BunnyEars
-Main.Instance.Hat[8]: name: cap
-Main.Instance.Hat[9]: name: Helmet5
-Main.Instance.Hat[10]: name: Helmet5 1
-Main.Instance.Hat[11]: name: Helmet3
-Main.Instance.Hat[12]: name: hardhat
-Main.Instance.Hat[13]: name: hardhat 1
-Main.Instance.Hat[14]: name: HeadBag
-Main.Instance.Hat[15]: name: Cowboy Hat
-Main.Instance.Hat[16]: name: Beret1
+Main.Instance.Prefabs_Hat[1]: name: Mill_hat_fix_01
+Main.Instance.Prefabs_Hat[2]: name: Mll_Hat_cap_var01
+Main.Instance.Prefabs_Hat[3]: name: Helmet1
+Main.Instance.Prefabs_Hat[4]: name: Helmet2
+Main.Instance.Prefabs_Hat[5]: name: GHelmet.001
+Main.Instance.Prefabs_Hat[6]: name: Helmet3
+Main.Instance.Prefabs_Hat[7]: name: BunnyEars
+Main.Instance.Prefabs_Hat[8]: name: cap
+Main.Instance.Prefabs_Hat[9]: name: Helmet5
+Main.Instance.Prefabs_Hat[10]: name: Helmet5 1
+Main.Instance.Prefabs_Hat[11]: name: Helmet3
+Main.Instance.Prefabs_Hat[12]: name: hardhat
+Main.Instance.Prefabs_Hat[13]: name: hardhat 1
+Main.Instance.Prefabs_Hat[14]: name: HeadBag
+Main.Instance.Prefabs_Hat[15]: name: Cowboy Hat
+Main.Instance.Prefabs_Hat[16]: name: Beret1
 -------------------------------------------------------------------Hair-------------------------------------------------------------------
-Main.Instance.Hair[0]: name: hair01 (3)
-Main.Instance.Hair[1]: name: bb_female_hair
-Main.Instance.Hair[2]: name: bb_Male_Military_Hair
-Main.Instance.Hair[3]: name: bb_male_haircut
-Main.Instance.Hair[4]: name: F_Base_2_0_Hair
-Main.Instance.Hair[5]: name: Hair
-Main.Instance.Hair[6]: name: hair01 (1)
-Main.Instance.Hair[7]: name: hair01 (2)
-Main.Instance.Hair[8]: name: hair01 (4)
-Main.Instance.Hair[9]: name: hair01 (6)
-Main.Instance.Hair[10]: name: hair01 (7)
-Main.Instance.Hair[11]: name: hair01 (8)
-Main.Instance.Hair[12]: name: hair01 (9)
-Main.Instance.Hair[13]: name: hair01 (10)
-Main.Instance.Hair[14]: name: hair01 (11)
-Main.Instance.Hair[15]: name: hair01 (13)
-Main.Instance.Hair[16]: name: hair01 (14)
-Main.Instance.Hair[17]: name: hair01
-Main.Instance.Hair[18]: name: Hair1
-Main.Instance.Hair[19]: name: HairJanna
-Main.Instance.Hair[20]: name: RL_G6_Hair
-Main.Instance.Hair[21]: name: serahreikkahairv1B
-Main.Instance.Hair[22]: name: M_hair9
-Main.Instance.Hair[23]: name: M_hair8
-Main.Instance.Hair[24]: name: M_hair7
-Main.Instance.Hair[25]: name: M_hair6
-Main.Instance.Hair[26]: name: M_hair4
-Main.Instance.Hair[27]: name: M_hair3
-Main.Instance.Hair[28]: name: M_hair2
-Main.Instance.Hair[29]: name: M_hair1
-Main.Instance.Hair[30]: name: F_Hair11
-Main.Instance.Hair[31]: name: F_Hair9
-Main.Instance.Hair[32]: name: F_Hair9_2
-Main.Instance.Hair[33]: name: F_Hair8
-Main.Instance.Hair[34]: name: F_Hair7
-Main.Instance.Hair[35]: name: F_Hair5
-Main.Instance.Hair[36]: name: F_Hair4
-Main.Instance.Hair[37]: name: F_Hair3
-Main.Instance.Hair[38]: name: F_Hair2
-Main.Instance.Hair[39]: name: F_Hair1
-Main.Instance.Hair[40]: name: F_Hair_02
-Main.Instance.Hair[41]: name: F_Hair_03_VOL2
-Main.Instance.Hair[42]: name: Female Hair 04
-Main.Instance.Hair[43]: name: Female Hair 06
-Main.Instance.Hair[44]: name: Female Hair 07
-Main.Instance.Hair[45]: name: Female hair 08
-Main.Instance.Hair[46]: name: Female Hair_01
-Main.Instance.Hair[47]: name: Female Hair_05
-Main.Instance.Hair[48]: name: M_Hair_02
-Main.Instance.Hair[49]: name: M_Hair_05
-Main.Instance.Hair[50]: name: Male_Vol.2_Hair_01
-Main.Instance.Hair[51]: name: Male_Vol.2_Hair_03
-Main.Instance.Hair[52]: name: 08
-Main.Instance.Hair[53]: name: 07
-Main.Instance.Hair[54]: name: 06
-Main.Instance.Hair[55]: name: 05
-Main.Instance.Hair[56]: name: 04
-Main.Instance.Hair[57]: name: 03.001
-Main.Instance.Hair[58]: name: 02.001
-Main.Instance.Hair[59]: name: 01.001
-Main.Instance.Hair[60]: name: side_part_wavy
-Main.Instance.Hair[61]: name: RockGirl
-Main.Instance.Hair[62]: name: ponytailhair2
-Main.Instance.Hair[63]: name: ponytail2
-Main.Instance.Hair[64]: name: mariaHair
-Main.Instance.Hair[65]: name: helena
-Main.Instance.Hair[66]: name: lara
-Main.Instance.Hair[67]: name: Mesh_0103
-Main.Instance.Hair[68]: name: mia
-Main.Instance.Hair[69]: name: shelly
-Main.Instance.Hair[70]: name: shelly2
-Main.Instance.Hair[71]: name: fb3edited
-Main.Instance.Hair[72]: name: anime1
-Main.Instance.Hair[73]: name: doar
-Main.Instance.Hair[74]: name: fem
-Main.Instance.Hair[75]: name: mic
-Main.Instance.Hair[76]: name: mile2
-Main.Instance.Hair[77]: name: rumba
-Main.Instance.Hair[78]: name: ari
-Main.Instance.Hair[79]: name: lyx
-Main.Instance.Hair[80]: name: beth
-Main.Instance.Hair[81]: name: r1
-Main.Instance.Hair[82]: name: fringe
-Main.Instance.Hair[83]: name: 1
-Main.Instance.Hair[84]: name: 2
-Main.Instance.Hair[85]: name: 3
-Main.Instance.Hair[86]: name: Gloria
-Main.Instance.Hair[87]: name: pony7
-Main.Instance.Hair[88]: name: SK_Hair_NPC001_002
-Main.Instance.Hair[89]: name: pigtails
-Main.Instance.Hair[90]: name: short
-Main.Instance.Hair[91]: name: ghosthair
-Main.Instance.Hair[92]: name: fancy
-Main.Instance.Hair[93]: name: Ch22_Hair
-Main.Instance.Hair[94]: name: pretty
-Main.Instance.Hair[95]: name: fancy3
-Main.Instance.Hair[96]: name: fancy2
-Main.Instance.Hair[97]: name: pony6
-Main.Instance.Hair[98]: name: billie
-Main.Instance.Hair[99]: name: nurse1
-Main.Instance.Hair[100]: name: penilopa
-Main.Instance.Hair[101]: name: ff7_ZBrushPolyMesh3D.001
-Main.Instance.Hair[102]: name: ff7_ZBrushPolyMesh3D.002
-Main.Instance.Hair[103]: name: ff7_ZBrushPolyMesh3D.003
-Main.Instance.Hair[104]: name: ff7_ZBrushPolyMesh3D.004
-Main.Instance.Hair[105]: name: ff7_ZBrushPolyMesh3D
-Main.Instance.Hair[106]: name: p2.Hair03
-Main.Instance.Hair[107]: name: p2.hair04
-Main.Instance.Hair[108]: name: p2.Hair05
-Main.Instance.Hair[109]: name: p2.Hair06
-Main.Instance.Hair[110]: name: p2.Hair07.002
-Main.Instance.Hair[111]: name: p2.Hair07
-Main.Instance.Hair[112]: name: p2.Hair08
-Main.Instance.Hair[113]: name: p2.Hair09
-Main.Instance.Hair[114]: name: p2.Hair10
-Main.Instance.Hair[115]: name: p2.Hair11
-Main.Instance.Hair[116]: name: p2.Hair11.001
-Main.Instance.Hair[117]: name: p2.Hair12
-Main.Instance.Hair[118]: name: p2.Hair13
-Main.Instance.Hair[119]: name: p2.Hair14
-Main.Instance.Hair[120]: name: p2.Hair15
-Main.Instance.Hair[121]: name: p2.hair20
-Main.Instance.Hair[122]: name: SV1
-Main.Instance.Hair[123]: name: 005_2
-Main.Instance.Hair[124]: name: 009
-Main.Instance.Hair[125]: name: betty
-Main.Instance.Hair[126]: name: ZBrushPolyMesh3D.001_m2
-Main.Instance.Hair[127]: name: ZBrushPolyMesh3D_m2
-Main.Instance.Hair[128]: name: JeHair
-Main.Instance.Hair[129]: name: gong
-Main.Instance.Hair[130]: name: Real_time_Women_Hairstyles_collection_01_Hair13.001
-Main.Instance.Hair[131]: name: Real_time_Women_Hairstyles_collection_01_Hair13.002
-Main.Instance.Hair[132]: name: Real_time_Women_Hairstyles_collection_01_Hair13.003
-Main.Instance.Hair[133]: name: Real_time_Women_Hairstyles_collection_01_Hair13.004
-Main.Instance.Hair[134]: name: Real_time_Women_Hairstyles_collection_01_Hair13
-Main.Instance.Hair[135]: name: skel-fin2
-Main.Instance.Hair[136]: name: nini
-Main.Instance.Hair[137]: name: s1
-Main.Instance.Hair[138]: name: rumba
-Main.Instance.Hair[139]: name: s3
-Main.Instance.Hair[140]: name: s4
-Main.Instance.Hair[141]: name: r9
-Main.Instance.Hair[142]: name: r8
-Main.Instance.Hair[143]: name: r6
-Main.Instance.Hair[144]: name: s5
-Main.Instance.Hair[145]: name: r7
-Main.Instance.Hair[146]: name: cleahair
-Main.Instance.Hair[147]: name: hair56567856785678
-Main.Instance.Hair[148]: name: Greassy_1
-Main.Instance.Hair[149]: name: hairbob7
-Main.Instance.Hair[150]: name: greasy_2
-Main.Instance.Hair[151]: name: ffffffff
-Main.Instance.Hair[152]: name: all
-Main.Instance.Hair[153]: name: harl
-Main.Instance.Hair[154]: name: F_Hair_640_2
-Main.Instance.Hair[155]: name: F_Hair_636
-Main.Instance.Hair[156]: name: CN_F_Hair_152
-Main.Instance.Hair[157]: name: oldhair3
-Main.Instance.Hair[158]: name: pigtails4
-Main.Instance.Hair[159]: name: 1212
-Main.Instance.Hair[160]: name: 1212_2
-Main.Instance.Hair[161]: name: mari
-Main.Instance.Hair[162]: name: glh
-Main.Instance.Hair[163]: name: archair
-Main.Instance.Hair[164]: name: braidshair
-Main.Instance.Hair[165]: name: aquaHair
-Main.Instance.Hair[166]: name: AsukaHair
-Main.Instance.Hair[167]: name: 1582_mesh
-Main.Instance.Hair[168]: name: 1323
-Main.Instance.Hair[169]: name: 1647
-Main.Instance.Hair[170]: name: 1304_mesh
-Main.Instance.Hair[171]: name: r5
-Main.Instance.Hair[172]: name: r4
-Main.Instance.Hair[173]: name: r3
-Main.Instance.Hair[174]: name: r2
-Main.Instance.Hair[175]: name: r1_2
-Main.Instance.Hair[176]: name: r1_
-Main.Instance.Hair[177]: name: IP_NYYD_F_HAIR_1_2
-Main.Instance.Hair[178]: name: IP_VCHA_F_HAIR_3_2
-Main.Instance.Hair[179]: name: vb2
-Main.Instance.Hair[180]: name: rd05
-Main.Instance.Hair[181]: name: vb5
-Main.Instance.Hair[182]: name: rd04
-Main.Instance.Hair[183]: name: rd01
-Main.Instance.Hair[184]: name: HairMessy01F
-Main.Instance.Hair[185]: name: cool65
-Main.Instance.Hair[186]: name: cool60
-Main.Instance.Hair[187]: name: cool49
-Main.Instance.Hair[188]: name: c25
-Main.Instance.Hair[189]: name: c24
-Main.Instance.Hair[190]: name: c23
-Main.Instance.Hair[191]: name: c19
-Main.Instance.Hair[192]: name: c18
-Main.Instance.Hair[193]: name: c11
-Main.Instance.Hair[194]: name: c07
-Main.Instance.Hair[195]: name: claire
-Main.Instance.Hair[196]: name: ellie1
-Main.Instance.Hair[197]: name: ellie3
-Main.Instance.Hair[198]: name: Mikan_Hair_unlit
-Main.Instance.Hair[199]: name: ako
-Main.Instance.Hair[200]: name: mizu
-Main.Instance.Hair[201]: name: naga
-Main.Instance.Hair[202]: name: takagiHair
+Main.Instance.Prefabs_Hair[0]: name: hair01 (3)
+Main.Instance.Prefabs_Hair[1]: name: bb_female_hair
+Main.Instance.Prefabs_Hair[2]: name: bb_Male_Military_Hair
+Main.Instance.Prefabs_Hair[3]: name: bb_male_haircut
+Main.Instance.Prefabs_Hair[4]: name: F_Base_2_0_Hair
+Main.Instance.Prefabs_Hair[5]: name: Hair
+Main.Instance.Prefabs_Hair[6]: name: hair01 (1)
+Main.Instance.Prefabs_Hair[7]: name: hair01 (2)
+Main.Instance.Prefabs_Hair[8]: name: hair01 (4)
+Main.Instance.Prefabs_Hair[9]: name: hair01 (6)
+Main.Instance.Prefabs_Hair[10]: name: hair01 (7)
+Main.Instance.Prefabs_Hair[11]: name: hair01 (8)
+Main.Instance.Prefabs_Hair[12]: name: hair01 (9)
+Main.Instance.Prefabs_Hair[13]: name: hair01 (10)
+Main.Instance.Prefabs_Hair[14]: name: hair01 (11)
+Main.Instance.Prefabs_Hair[15]: name: hair01 (13)
+Main.Instance.Prefabs_Hair[16]: name: hair01 (14)
+Main.Instance.Prefabs_Hair[17]: name: hair01
+Main.Instance.Prefabs_Hair[18]: name: Hair1
+Main.Instance.Prefabs_Hair[19]: name: HairJanna
+Main.Instance.Prefabs_Hair[20]: name: RL_G6_Hair
+Main.Instance.Prefabs_Hair[21]: name: serahreikkahairv1B
+Main.Instance.Prefabs_Hair[22]: name: M_hair9
+Main.Instance.Prefabs_Hair[23]: name: M_hair8
+Main.Instance.Prefabs_Hair[24]: name: M_hair7
+Main.Instance.Prefabs_Hair[25]: name: M_hair6
+Main.Instance.Prefabs_Hair[26]: name: M_hair4
+Main.Instance.Prefabs_Hair[27]: name: M_hair3
+Main.Instance.Prefabs_Hair[28]: name: M_hair2
+Main.Instance.Prefabs_Hair[29]: name: M_hair1
+Main.Instance.Prefabs_Hair[30]: name: F_Hair11
+Main.Instance.Prefabs_Hair[31]: name: F_Hair9
+Main.Instance.Prefabs_Hair[32]: name: F_Hair9_2
+Main.Instance.Prefabs_Hair[33]: name: F_Hair8
+Main.Instance.Prefabs_Hair[34]: name: F_Hair7
+Main.Instance.Prefabs_Hair[35]: name: F_Hair5
+Main.Instance.Prefabs_Hair[36]: name: F_Hair4
+Main.Instance.Prefabs_Hair[37]: name: F_Hair3
+Main.Instance.Prefabs_Hair[38]: name: F_Hair2
+Main.Instance.Prefabs_Hair[39]: name: F_Hair1
+Main.Instance.Prefabs_Hair[40]: name: F_Hair_02
+Main.Instance.Prefabs_Hair[41]: name: F_Hair_03_VOL2
+Main.Instance.Prefabs_Hair[42]: name: Female Hair 04
+Main.Instance.Prefabs_Hair[43]: name: Female Hair 06
+Main.Instance.Prefabs_Hair[44]: name: Female Hair 07
+Main.Instance.Prefabs_Hair[45]: name: Female hair 08
+Main.Instance.Prefabs_Hair[46]: name: Female Hair_01
+Main.Instance.Prefabs_Hair[47]: name: Female Hair_05
+Main.Instance.Prefabs_Hair[48]: name: M_Hair_02
+Main.Instance.Prefabs_Hair[49]: name: M_Hair_05
+Main.Instance.Prefabs_Hair[50]: name: Male_Vol.2_Hair_01
+Main.Instance.Prefabs_Hair[51]: name: Male_Vol.2_Hair_03
+Main.Instance.Prefabs_Hair[52]: name: 08
+Main.Instance.Prefabs_Hair[53]: name: 07
+Main.Instance.Prefabs_Hair[54]: name: 06
+Main.Instance.Prefabs_Hair[55]: name: 05
+Main.Instance.Prefabs_Hair[56]: name: 04
+Main.Instance.Prefabs_Hair[57]: name: 03.001
+Main.Instance.Prefabs_Hair[58]: name: 02.001
+Main.Instance.Prefabs_Hair[59]: name: 01.001
+Main.Instance.Prefabs_Hair[60]: name: side_part_wavy
+Main.Instance.Prefabs_Hair[61]: name: RockGirl
+Main.Instance.Prefabs_Hair[62]: name: ponytailhair2
+Main.Instance.Prefabs_Hair[63]: name: ponytail2
+Main.Instance.Prefabs_Hair[64]: name: mariaHair
+Main.Instance.Prefabs_Hair[65]: name: helena
+Main.Instance.Prefabs_Hair[66]: name: lara
+Main.Instance.Prefabs_Hair[67]: name: Mesh_0103
+Main.Instance.Prefabs_Hair[68]: name: mia
+Main.Instance.Prefabs_Hair[69]: name: shelly
+Main.Instance.Prefabs_Hair[70]: name: shelly2
+Main.Instance.Prefabs_Hair[71]: name: fb3edited
+Main.Instance.Prefabs_Hair[72]: name: anime1
+Main.Instance.Prefabs_Hair[73]: name: doar
+Main.Instance.Prefabs_Hair[74]: name: fem
+Main.Instance.Prefabs_Hair[75]: name: mic
+Main.Instance.Prefabs_Hair[76]: name: mile2
+Main.Instance.Prefabs_Hair[77]: name: rumba
+Main.Instance.Prefabs_Hair[78]: name: ari
+Main.Instance.Prefabs_Hair[79]: name: lyx
+Main.Instance.Prefabs_Hair[80]: name: beth
+Main.Instance.Prefabs_Hair[81]: name: r1
+Main.Instance.Prefabs_Hair[82]: name: fringe
+Main.Instance.Prefabs_Hair[83]: name: 1
+Main.Instance.Prefabs_Hair[84]: name: 2
+Main.Instance.Prefabs_Hair[85]: name: 3
+Main.Instance.Prefabs_Hair[86]: name: Gloria
+Main.Instance.Prefabs_Hair[87]: name: pony7
+Main.Instance.Prefabs_Hair[88]: name: SK_Hair_NPC001_002
+Main.Instance.Prefabs_Hair[89]: name: pigtails
+Main.Instance.Prefabs_Hair[90]: name: short
+Main.Instance.Prefabs_Hair[91]: name: ghosthair
+Main.Instance.Prefabs_Hair[92]: name: fancy
+Main.Instance.Prefabs_Hair[93]: name: Ch22_Hair
+Main.Instance.Prefabs_Hair[94]: name: pretty
+Main.Instance.Prefabs_Hair[95]: name: fancy3
+Main.Instance.Prefabs_Hair[96]: name: fancy2
+Main.Instance.Prefabs_Hair[97]: name: pony6
+Main.Instance.Prefabs_Hair[98]: name: billie
+Main.Instance.Prefabs_Hair[99]: name: nurse1
+Main.Instance.Prefabs_Hair[100]: name: penilopa
+Main.Instance.Prefabs_Hair[101]: name: ff7_ZBrushPolyMesh3D.001
+Main.Instance.Prefabs_Hair[102]: name: ff7_ZBrushPolyMesh3D.002
+Main.Instance.Prefabs_Hair[103]: name: ff7_ZBrushPolyMesh3D.003
+Main.Instance.Prefabs_Hair[104]: name: ff7_ZBrushPolyMesh3D.004
+Main.Instance.Prefabs_Hair[105]: name: ff7_ZBrushPolyMesh3D
+Main.Instance.Prefabs_Hair[106]: name: p2.Hair03
+Main.Instance.Prefabs_Hair[107]: name: p2.hair04
+Main.Instance.Prefabs_Hair[108]: name: p2.Hair05
+Main.Instance.Prefabs_Hair[109]: name: p2.Hair06
+Main.Instance.Prefabs_Hair[110]: name: p2.Hair07.002
+Main.Instance.Prefabs_Hair[111]: name: p2.Hair07
+Main.Instance.Prefabs_Hair[112]: name: p2.Hair08
+Main.Instance.Prefabs_Hair[113]: name: p2.Hair09
+Main.Instance.Prefabs_Hair[114]: name: p2.Hair10
+Main.Instance.Prefabs_Hair[115]: name: p2.Hair11
+Main.Instance.Prefabs_Hair[116]: name: p2.Hair11.001
+Main.Instance.Prefabs_Hair[117]: name: p2.Hair12
+Main.Instance.Prefabs_Hair[118]: name: p2.Hair13
+Main.Instance.Prefabs_Hair[119]: name: p2.Hair14
+Main.Instance.Prefabs_Hair[120]: name: p2.Hair15
+Main.Instance.Prefabs_Hair[121]: name: p2.hair20
+Main.Instance.Prefabs_Hair[122]: name: SV1
+Main.Instance.Prefabs_Hair[123]: name: 005_2
+Main.Instance.Prefabs_Hair[124]: name: 009
+Main.Instance.Prefabs_Hair[125]: name: betty
+Main.Instance.Prefabs_Hair[126]: name: ZBrushPolyMesh3D.001_m2
+Main.Instance.Prefabs_Hair[127]: name: ZBrushPolyMesh3D_m2
+Main.Instance.Prefabs_Hair[128]: name: JeHair
+Main.Instance.Prefabs_Hair[129]: name: gong
+Main.Instance.Prefabs_Hair[130]: name: Real_time_Women_Hairstyles_collection_01_Hair13.001
+Main.Instance.Prefabs_Hair[131]: name: Real_time_Women_Hairstyles_collection_01_Hair13.002
+Main.Instance.Prefabs_Hair[132]: name: Real_time_Women_Hairstyles_collection_01_Hair13.003
+Main.Instance.Prefabs_Hair[133]: name: Real_time_Women_Hairstyles_collection_01_Hair13.004
+Main.Instance.Prefabs_Hair[134]: name: Real_time_Women_Hairstyles_collection_01_Hair13
+Main.Instance.Prefabs_Hair[135]: name: skel-fin2
+Main.Instance.Prefabs_Hair[136]: name: nini
+Main.Instance.Prefabs_Hair[137]: name: s1
+Main.Instance.Prefabs_Hair[138]: name: rumba
+Main.Instance.Prefabs_Hair[139]: name: s3
+Main.Instance.Prefabs_Hair[140]: name: s4
+Main.Instance.Prefabs_Hair[141]: name: r9
+Main.Instance.Prefabs_Hair[142]: name: r8
+Main.Instance.Prefabs_Hair[143]: name: r6
+Main.Instance.Prefabs_Hair[144]: name: s5
+Main.Instance.Prefabs_Hair[145]: name: r7
+Main.Instance.Prefabs_Hair[146]: name: cleahair
+Main.Instance.Prefabs_Hair[147]: name: hair56567856785678
+Main.Instance.Prefabs_Hair[148]: name: Greassy_1
+Main.Instance.Prefabs_Hair[149]: name: hairbob7
+Main.Instance.Prefabs_Hair[150]: name: greasy_2
+Main.Instance.Prefabs_Hair[151]: name: ffffffff
+Main.Instance.Prefabs_Hair[152]: name: all
+Main.Instance.Prefabs_Hair[153]: name: harl
+Main.Instance.Prefabs_Hair[154]: name: F_Hair_640_2
+Main.Instance.Prefabs_Hair[155]: name: F_Hair_636
+Main.Instance.Prefabs_Hair[156]: name: CN_F_Hair_152
+Main.Instance.Prefabs_Hair[157]: name: oldhair3
+Main.Instance.Prefabs_Hair[158]: name: pigtails4
+Main.Instance.Prefabs_Hair[159]: name: 1212
+Main.Instance.Prefabs_Hair[160]: name: 1212_2
+Main.Instance.Prefabs_Hair[161]: name: mari
+Main.Instance.Prefabs_Hair[162]: name: glh
+Main.Instance.Prefabs_Hair[163]: name: archair
+Main.Instance.Prefabs_Hair[164]: name: braidshair
+Main.Instance.Prefabs_Hair[165]: name: aquaHair
+Main.Instance.Prefabs_Hair[166]: name: AsukaHair
+Main.Instance.Prefabs_Hair[167]: name: 1582_mesh
+Main.Instance.Prefabs_Hair[168]: name: 1323
+Main.Instance.Prefabs_Hair[169]: name: 1647
+Main.Instance.Prefabs_Hair[170]: name: 1304_mesh
+Main.Instance.Prefabs_Hair[171]: name: r5
+Main.Instance.Prefabs_Hair[172]: name: r4
+Main.Instance.Prefabs_Hair[173]: name: r3
+Main.Instance.Prefabs_Hair[174]: name: r2
+Main.Instance.Prefabs_Hair[175]: name: r1_2
+Main.Instance.Prefabs_Hair[176]: name: r1_
+Main.Instance.Prefabs_Hair[177]: name: IP_NYYD_F_HAIR_1_2
+Main.Instance.Prefabs_Hair[178]: name: IP_VCHA_F_HAIR_3_2
+Main.Instance.Prefabs_Hair[179]: name: vb2
+Main.Instance.Prefabs_Hair[180]: name: rd05
+Main.Instance.Prefabs_Hair[181]: name: vb5
+Main.Instance.Prefabs_Hair[182]: name: rd04
+Main.Instance.Prefabs_Hair[183]: name: rd01
+Main.Instance.Prefabs_Hair[184]: name: HairMessy01F
+Main.Instance.Prefabs_Hair[185]: name: cool65
+Main.Instance.Prefabs_Hair[186]: name: cool60
+Main.Instance.Prefabs_Hair[187]: name: cool49
+Main.Instance.Prefabs_Hair[188]: name: c25
+Main.Instance.Prefabs_Hair[189]: name: c24
+Main.Instance.Prefabs_Hair[190]: name: c23
+Main.Instance.Prefabs_Hair[191]: name: c19
+Main.Instance.Prefabs_Hair[192]: name: c18
+Main.Instance.Prefabs_Hair[193]: name: c11
+Main.Instance.Prefabs_Hair[194]: name: c07
+Main.Instance.Prefabs_Hair[195]: name: claire
+Main.Instance.Prefabs_Hair[196]: name: ellie1
+Main.Instance.Prefabs_Hair[197]: name: ellie3
+Main.Instance.Prefabs_Hair[198]: name: Mikan_Hair_unlit
+Main.Instance.Prefabs_Hair[199]: name: ako
+Main.Instance.Prefabs_Hair[200]: name: mizu
+Main.Instance.Prefabs_Hair[201]: name: naga
+Main.Instance.Prefabs_Hair[202]: name: takagiHair
 -------------------------------------------------------------------MaleHair-------------------------------------------------------------------
-Main.Instance.MaleHair[1]: name: bb_male_haircut
-Main.Instance.MaleHair[2]: name: bb_Male_Military_Hair
-Main.Instance.MaleHair[3]: name: M_hair8
-Main.Instance.MaleHair[4]: name: M_hair9
-Main.Instance.MaleHair[5]: name: M_hair6
-Main.Instance.MaleHair[6]: name: M_hair3
-Main.Instance.MaleHair[7]: name: Male_Vol.2_Hair_03
+Main.Instance.Prefabs_MaleHair[1]: name: bb_male_haircut
+Main.Instance.Prefabs_MaleHair[2]: name: bb_Male_Military_Hair
+Main.Instance.Prefabs_MaleHair[3]: name: M_hair8
+Main.Instance.Prefabs_MaleHair[4]: name: M_hair9
+Main.Instance.Prefabs_MaleHair[5]: name: M_hair6
+Main.Instance.Prefabs_MaleHair[6]: name: M_hair3
+Main.Instance.Prefabs_MaleHair[7]: name: Male_Vol.2_Hair_03
 -------------------------------------------------------------------Bodies-------------------------------------------------------------------
 -------------------------------------------------------------------Heads-------------------------------------------------------------------
 -------------------------------------------------------------------Beards-------------------------------------------------------------------
-Main.Instance.Beards[0]: name: M_beard 5
-Main.Instance.Beards[1]: name: M_beard1
-Main.Instance.Beards[2]: name: M_beard2
-Main.Instance.Beards[3]: name: M_beard4
+Main.Instance.Prefabs_Beards[0]: name: M_beard 5
+Main.Instance.Prefabs_Beards[1]: name: M_beard1
+Main.Instance.Prefabs_Beards[2]: name: M_beard2
+Main.Instance.Prefabs_Beards[3]: name: M_beard4
