@@ -2,6 +2,7 @@ using Den.Tools;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEngine;
 using static Mono.Security.X509.X520;
 using static UnityEngine.Rendering.VolumeComponent;
@@ -26,7 +27,6 @@ namespace BitchLand//must have this namespace
 
 		public void OnStart()
 		{
-			doWork();
 		}
 
         private List<GameObject> getPrefabsByName(string prefab)
@@ -121,6 +121,18 @@ namespace BitchLand//must have this namespace
                 case "Beards":
                     {
                         Prefabs = Main.Instance.Prefabs_Beards;
+                    }
+                    break;
+
+                case "ProstSuit1":
+                    {
+                        Prefabs = Main.Instance.Prefabs_ProstSuit1;
+                    }
+                    break;
+
+                case "ProstSuit2":
+                    {
+                        Prefabs = Main.Instance.Prefabs_ProstSuit2;
                     }
                     break;
 
@@ -262,7 +274,13 @@ namespace BitchLand//must have this namespace
                 return bag;
             }
 
-            int length = 2;
+            int length = Prefabs.Count;
+            bool[] haveItems = new bool[length];
+            for (int i = 0; i < length; i++)
+            {
+                haveItems[i] = false;
+            }
+
             for (int i = 0; i < length; i++)
             {
                 if (Prefabs[i].IsNull())
@@ -270,20 +288,95 @@ namespace BitchLand//must have this namespace
                     continue;
                 }
 
-                Weapon item = Prefabs[i];
+                if (haveItems[i])
+                    continue;
+
+                if (bag.CurrentWeapon != null)
+                {
+                    bag.DropAllWeapons();
+                    i--;
+                    continue;
+                }
+
                 //bag.PickupWeapon(Main.Spawn(weapon));
+                Weapon item = Prefabs[i];
+          //      if (!item.playerWeapon)
+          //          continue;
                 GameObject weapon = Main.Spawn(item.gameObject);
-                Main.Instance.Player.WeaponInv.DropAllWeapons();
-                Main.Instance.Player.WeaponInv.PickupWeapon(weapon);
-                //weapon.transform.position = weapon.transform.position + new Vector3(0.0f, 3f, 0.0f);
-                //bag.DropAllWeapons();
-                //bag.PickupWeapon(weapon);
-                //bag.startingWeaponIndex = 0;
-                //bag.DropAllWeapons();
+                //weapon.transform.position = weapon.transform.position + new Vector3(0.5f, 0.4f, 0.0f);
+                bag.PickupWeapon(weapon);
+                haveItems[i] = true;
             }
 
             return bag;
         }
+
+
+        private WeaponSystem addRandomWeaponByPrefab(string prefab, WeaponSystem bag)
+        {
+            if (bag == null)
+            {
+                return null;
+            }
+
+            List<Weapon> Prefabs = getPrefabsByName2(prefab);
+
+            if (Prefabs == null)
+            {
+                return bag;
+            }
+
+            int length = Prefabs.Count;
+            int i = UnityEngine.Random.Range(0, length);
+            Weapon item = Prefabs[i];
+            GameObject weapon = Main.Spawn(item.gameObject);
+            bag.DropAllWeapons();
+            bag.PickupWeapon(weapon);
+            return bag;
+        }
+
+        private WeaponSystem addWeaponByPrefabAndName(string prefab, string name, WeaponSystem bag)
+        {
+            if (bag == null)
+            {
+                return null;
+            }
+
+            if (name == null)
+            {
+                return null;
+            }
+
+            List<Weapon> Prefabs = getPrefabsByName2(prefab);
+
+            if (Prefabs == null)
+            {
+                return bag;
+            }
+
+            int length = Prefabs.Count;
+            for (int i = 0; i < length; i++)
+            {
+                if (Prefabs[i].IsNull())
+                {
+                    continue;
+                }
+
+                if (Prefabs[i].name != name)
+                    continue;
+
+                //bag.PickupWeapon(Main.Spawn(weapon));
+                Weapon item = Prefabs[i];
+                //      if (!item.playerWeapon)
+                //          continue;
+                GameObject weapon = Main.Spawn(item.gameObject);
+                //weapon.transform.position = weapon.transform.position + new Vector3(0.5f, 0.4f, 0.0f);
+                bag.DropAllWeapons();
+                bag.PickupWeapon(weapon);
+            }
+            return bag;
+        }
+
 
         private void showItemsInLogByPrefab(string prefab)
         {
@@ -361,6 +454,8 @@ namespace BitchLand//must have this namespace
 
         private void showAllItemsInLog()
         {
+            showItemsInLogByPrefab("ProstSuit1");
+            showItemsInLogByPrefab("ProstSuit2");
             showWeaponsInLogByPrefab("Weapons");
             showItemsInLogByPrefab(null);
             showItemsInLogByPrefab("Any");
@@ -404,6 +499,8 @@ namespace BitchLand//must have this namespace
             {
                 Int_Storage bag = Main.Instance.Player.CurrentBackpack.ThisStorage;
                 bag = addAllItemsByPrefab(null, bag);
+                bag = addAllItemsByPrefab("Prost_Suit1", bag);
+                bag = addAllItemsByPrefab("Prost_Suit2", bag);
                 bag = addAllItemsByPrefab("Any", bag);
                 bag = addAllItemsByPrefab("Shoes", bag);
                 bag = addAllItemsByPrefab("Pants", bag);
@@ -416,43 +513,88 @@ namespace BitchLand//must have this namespace
                 Main.Instance.Player.CurrentBackpack.ThisStorage = bag;
 
                 WeaponSystem bag2 = Main.Instance.Player.WeaponInv;
-                bag2 = addAllWeaponsByPrefab(null, bag2);
+                //bag2 = addAllWeaponsByPrefab(null, bag2);
+                bag2 = addWeaponByPrefabAndName(null, "Assault Rifle 2", bag2);
+                bag2 = addWeaponByPrefabAndName(null, "Pistol", bag2);
+                bag2 = addWeaponByPrefabAndName(null, "M79 Grenade Launcher", bag2);
+                bag2 = addWeaponByPrefabAndName(null, "Pickaxe", bag2);
+                bag2 = addWeaponByPrefabAndName(null, "crowbar", bag2);
+                bag2 = addWeaponByPrefabAndName(null, "Shovel", bag2);
                 Main.Instance.Player.WeaponInv = bag2;
-                Main.Instance.Player.Favor = 100000;
-                Main.Instance.Player.CantBeHit = true;
-                Main.Instance.Player.Fertility = 1f;
-                Main.Instance.Player.StoryModeFertility = 1f;
-                Main.Instance.Player.Energy = 100f;
-                Main.Instance.Player.Hunger = 100f;
-                Main.Instance.Player.NoEnergyLoss = true;
-                Main.Instance.Player.Money += 10000;
+                Main.Instance.Player.Money += 100000;
             }
             //showAllItemsInLog();
+            showItemsInLogByPrefab("ProstSuit1");
+            showItemsInLogByPrefab("ProstSuit2");
         }
 
 
         public static bl_GiveMeTheGoodStuffModDoWork Instance = new bl_GiveMeTheGoodStuffModDoWork();
     }
 
-	public class Mod//must have this class name
+    class bl_AllStatsToMaxModDoWork
+    {
+        public bl_AllStatsToMaxModDoWork()
+        {
+        }
+
+        public void OnEnable()
+        {
+            doWork();
+        }
+
+        public void OnDisable()
+        {
+
+        }
+
+        public void doWork()
+        {
+            string allStatsToMaxModString = "bl_AllStatsToMaxModDoWork.doWork() Set all skills to max";
+            Main.Instance.GameplayMenu.ShowNotification(allStatsToMaxModString);
+            Debug.Log((object)allStatsToMaxModString);
+            int add = 300;
+            Main.Instance.Player.SexSkills = add;
+            Main.Instance.Player.WorkSkills = add;
+            Main.Instance.Player.ArmySkills = add;
+            Main.Instance.Player.Money += add;
+            int workMax = Main.Instance.Player.WorkXpThisLvlMax;
+            int sexMax = Main.Instance.Player.SexXpThisLvlMax;
+            int armyMax = Main.Instance.Player.ArmyXpThisLvlMax;
+            workMax = workMax >= 0 ? workMax : add;
+            sexMax = sexMax >= 0 ? sexMax : add;
+            armyMax = armyMax >= 0 ? armyMax : add;
+            Main.Instance.Player.SexXpThisLvl = sexMax;
+            Main.Instance.Player.WorkXpThisLvl = workMax;
+            Main.Instance.Player.ArmyXpThisLvl = armyMax;
+            Main.Instance.Player.Hunger = 75;
+            Main.Instance.Player.Energy = 75;
+            Main.Instance.Player.Toilet = 75;
+            Main.Instance.Player.Favor = 75;
+        }
+
+        public static bl_AllStatsToMaxModDoWork Instance = new bl_AllStatsToMaxModDoWork();
+    }
+
+    public class Mod//must have this class name
 	{
 		public static bl_GiveMeTheGoodStuffMod ThisMod;
 
-		public static void Init() //must have this name, and MUST be static
-		{
-			ThisMod = Main.Instance.gameObject.AddComponent<bl_GiveMeTheGoodStuffMod>();
-		}
-
-
+        public static void Init() //must have this name, and MUST be static
+        {
+            ThisMod = Main.Instance.gameObject.AddComponent<bl_GiveMeTheGoodStuffMod>();
+        }
 
 		public static void EnableMod(bool value)
 		{
 			if(value)
 			{//mod was enabled in the settings
+                bl_AllStatsToMaxModDoWork.Instance.OnEnable();
 				bl_GiveMeTheGoodStuffModDoWork.Instance.OnEnable();
             }
 			else
 			{
+                bl_AllStatsToMaxModDoWork.Instance.OnDisable();
 				bl_GiveMeTheGoodStuffModDoWork.Instance.OnDisable();
 			}
 		}
@@ -462,6 +604,7 @@ namespace BitchLand//must have this namespace
 	{
 		public void Start()
 		{
+            bl_AllStatsToMaxModDoWork.Instance.OnEnable();
             bl_GiveMeTheGoodStuffModDoWork.Instance.OnStart();
         }
 

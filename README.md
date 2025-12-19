@@ -1,2 +1,1 @@
-BitchLand Gives you a backpack with all items and weapons and you get 10000 bitch notes
-
+Bitchland Give you a backpack and weapons and all items from the game(300 items / 10.e),Set all stats (workxp,armyxp,sexxp,hunger,energy,favor) to maximum, and you get 100000 bitch notes
