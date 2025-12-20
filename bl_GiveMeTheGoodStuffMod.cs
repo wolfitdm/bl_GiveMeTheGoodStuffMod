@@ -477,6 +477,15 @@ namespace BitchLand//must have this namespace
 
         public void doWork()
         {
+            if (Main.Instance.GameplayMenu.Relationships != null)
+            {
+                int length = Main.Instance.GameplayMenu.Relationships.Count;
+                for (int i = 0; i < length; i++)
+                {
+                    Main.Instance.GameplayMenu.Relationships[i].Favor = 100000000;
+                }
+            }
+
             if (Main.Instance.AllPrefabs == null)
             {
                 return;
