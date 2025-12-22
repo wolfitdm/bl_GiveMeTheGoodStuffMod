@@ -1,0 +1,3 @@
+Title:GiveMeTheGoodStuffMod3
+Description:Give you a backpack and weapons and all items from the game(300 items / 10.e),Set all stats (workxp,armyxp,sexxp,hunger,energy,favor) to maximum, and you get 100000 bitch notes, and set all relationships to the maximum, Cleans your skin and set your sex and addiction multiplier to 10
+Enabled:True

@@ -2,6 +2,7 @@ using Den.Tools;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using Unity.Mathematics;
 using UnityEngine;
 using static Mono.Security.X509.X520;
@@ -577,10 +578,33 @@ namespace BitchLand//must have this namespace
             Main.Instance.Player.SexXpThisLvl = sexMax;
             Main.Instance.Player.WorkXpThisLvl = workMax;
             Main.Instance.Player.ArmyXpThisLvl = armyMax;
-            Main.Instance.Player.Hunger = 75;
-            Main.Instance.Player.Energy = 75;
-            Main.Instance.Player.Toilet = 75;
-            Main.Instance.Player.Favor = 75;
+            Main.Instance.Player.Hunger = 0;
+            Main.Instance.Player.Energy = 100;
+            Main.Instance.Player.Toilet = 0;
+            Main.Instance.Player.Favor = 1000;
+            Main.Instance.Player.SexMultiplier = 10f;
+            Main.Instance.Player.SexMAddictionultiplier = 10f;
+            if (Main.Instance.Player.States.Length > 25)
+            {
+                Main.Instance.Player.States[0] = false;
+                Main.Instance.Player.States[2] = false;
+                Main.Instance.Player.States[3] = false;
+                Main.Instance.Player.States[8] = false;
+                Main.Instance.Player.States[12] = false;
+                Main.Instance.Player.States[13] = false;
+                Main.Instance.Player.States[14] = false;
+                Main.Instance.Player.States[15] = false;
+                Main.Instance.Player.States[16] = false;
+                Main.Instance.Player.States[17] = false;
+                Main.Instance.Player.States[18] = false;
+                Main.Instance.Player.States[19] = false;
+                Main.Instance.Player.States[26] = false;
+                Main.Instance.Player.States[33] = false;
+                Main.Instance.Player.States[23] = false;
+                Main.Instance.Player.States[24] = false;
+                Main.Instance.Player.States[25] = false;
+            }
+            Main.Instance.Player.DirtySkin = false;
         }
 
         public static bl_AllStatsToMaxModDoWork Instance = new bl_AllStatsToMaxModDoWork();
